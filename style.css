@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(77, 77, 187);
+}
+.qr-container{
+    margin: 10rem auto;
+    height: 200px;
+    width: 400px;
+    border: 2px solid;
+    box-shadow: 5px 5px 20px ;
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+    background-color: rgb(0, 0, 255);
+}
+#userinput{
+    height: 35px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 1rem auto;
+    background-color: aliceblue;
+    margin-left: 10%;
+}
+button{
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    margin: 1rem auto;
+    background-color: rgb(19, 145, 32);
+    margin-left: 23%;
+}
+.input-field{
+    margin: 1rem auto;
+}
+.qrcode img{
+    height: 290px;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    background-color: rgb(0, 0, 255);
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: rgb(0, 0, 255);
+}
+.down{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(19, 145, 32);
+    margin-left: 100px;
+    display: none;
+}
+.down a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(19, 145, 32);
+    text-decoration: none;
+}
+.qrcode{
+    height: 0;
+    background-color: rgb(0, 0, 255);
+}
